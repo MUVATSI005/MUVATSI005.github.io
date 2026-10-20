@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Muvatsi Kyahimba Messager – Ingénieur cloud, sécurité & télécoms</title>
+<meta name="description" content="Portfolio de Muvatsi Kyahimba Messager, ingénieur informatique (cloud computing et sécurité des données) et télécoms, Butembo, RDC.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#eef2f4;--ink:#12263a;--mute:#4b5d6e;--line:#c5d1d9;--card:#fff;--sig:#0f766e;--lamp:#e8a400}
+@media (prefers-color-scheme:dark){:root{--bg:#0d1a26;--ink:#e6edf2;--mute:#9fb1bf;--line:#26394a;--card:#132434;--sig:#4fd1c0;--lamp:#f2b632}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1.05rem/1.65 Figtree,system-ui,sans-serif}
+h1,h2,h3{font-family:'Bricolage Grotesque',Figtree,system-ui,sans-serif;line-height:1.1;margin:0}
+a{color:var(--sig)}
+a:focus-visible,button:focus-visible{outline:3px solid var(--lamp);outline-offset:3px}
+.wrap{max-width:920px;margin:0 auto;padding:0 1.25rem}
+header.top{display:flex;justify-content:space-between;align-items:center;padding:1rem 0}
+header.top span{font-weight:600}
+.lang{display:flex;border:1px solid var(--line);border-radius:999px;overflow:hidden}
+.lang button{background:none;border:0;color:var(--ink);padding:.4rem .9rem;font:600 .9rem Figtree,sans-serif;cursor:pointer}
+.lang button[aria-pressed=true]{background:var(--ink);color:var(--bg)}
+.hero{padding:3rem 0 3.5rem}
+.hero h1{font-size:clamp(2.6rem,9vw,5.2rem);font-weight:800;letter-spacing:-.03em}
+.hero p.lead{max-width:34rem;font-size:1.2rem;color:var(--mute);margin:1.2rem 0 1.6rem}
+.btns{display:flex;flex-wrap:wrap;gap:.7rem}
+.btn{display:inline-block;padding:.7rem 1.2rem;border-radius:8px;font-weight:600;text-decoration:none;border:2px solid var(--ink);color:var(--ink)}
+.btn.main{background:var(--ink);color:var(--bg)}
+section{padding:2.5rem 0;border-top:1px solid var(--line)}
+section>h2{font-size:clamp(1.6rem,5vw,2.2rem);margin-bottom:1.4rem}
+.tl{list-style:none;margin:0;padding:0 0 0 1.4rem;border-left:3px solid var(--sig)}
+.tl li{position:relative;padding:0 0 1.4rem 1rem}
+.tl li::before{content:"";position:absolute;left:-2.05rem;top:.5rem;width:.9rem;height:.9rem;border-radius:50%;background:var(--bg);border:3px solid var(--sig)}
+.tl li.now::before{background:var(--lamp);border-color:var(--lamp)}
+.tl b{display:block;font-family:'Bricolage Grotesque',sans-serif;font-size:1.15rem}
+.tl small{color:var(--mute);font-size:.95rem}
+.grid{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:1.2rem}
+.card h3{font-size:1.2rem;margin-bottom:.5rem}
+.card p{margin:.3rem 0;color:var(--mute)}
+.tag{display:inline-block;font-size:.85rem;font-weight:600;padding:.15rem .6rem;border-radius:999px;border:1px solid var(--line);margin:.2rem .2rem 0 0}
+.status{color:var(--lamp);font-weight:600;font-size:.9rem}
+footer{padding:2rem 0 3rem;border-top:1px solid var(--line);color:var(--mute);font-size:.95rem}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+  <span>M. K. Messager</span>
+  <div class="lang" role="group" aria-label="Langue / Language">
+    <button id="bfr" aria-pressed="true">FR</button>
+    <button id="ben" aria-pressed="false">EN</button>
+  </div>
+</header>
+
+<main>
+<div class="hero">
+  <h1>Muvatsi Kyahimba Messager</h1>
+  <p class="lead t" data-fr="Ingénieur informatique spécialisé en cloud computing et sécurité des données, avec une base solide en télécommunications. Basé à Butembo, RDC." data-en="Computer engineer specialised in cloud computing and data security, with a strong telecommunications background. Based in Butembo, DR Congo."></p>
+  <div class="btns">
+    <a class="btn main t" href="#projets" data-fr="Voir mes projets" data-en="See my projects"></a>
+    <a class="btn t" href="#contact" data-fr="Me contacter" data-en="Contact me"></a>
+  </div>
+</div>
+
+<section id="parcours">
+  <h2 class="t" data-fr="Parcours" data-en="Background"></h2>
+  <ul class="tl">
+    <li class="now"><b class="t" data-fr="Ingénieur en informatique, cloud computing et sécurité des données" data-en="Engineering degree in computer science, cloud computing and data security"></b><small>École Polytechnique Centrale Privée de Tunis, 2025</small></li>
+    <li><b class="t" data-fr="Mission de documentation" data-en="Documentation assignment"></b><small>REC-INOV, <span class="t" data-fr="juillet à décembre 2025" data-en="July to December 2025"></span></small></li>
+    <li><b class="t" data-fr="Licence en télécommunications" data-en="Bachelor's degree in telecommunications"></b><small>ISTA Kinshasa, 2022</small></li>
+    <li><b class="t" data-fr="Graduat en radiotransmission" data-en="Associate degree in radio transmission"></b><small>2019</small></li>
+    <li><b class="t" data-fr="Diplôme d'État en électricité" data-en="State diploma in electricity"></b><small>Mahamba, Butembo, 2015</small></li>
+  </ul>
+</section>
+
+<section id="competences">
+  <h2 class="t" data-fr="Compétences" data-en="Skills"></h2>
+  <div class="grid">
+    <div class="card"><h3>Cloud & DevOps</h3><span class="tag">AWS Cloud Foundations</span><span class="tag">Linux</span><span class="tag">Git</span><span class="tag">CI/CD</span></div>
+    <div class="card"><h3 class="t" data-fr="Réseaux & sécurité" data-en="Networking & security"></h3><span class="tag">Cisco CCNA 1–3</span><span class="tag t" data-fr="Cybersécurité (Cisco)" data-en="Cybersecurity (Cisco)"></span></div>
+    <div class="card"><h3 class="t" data-fr="Langues" data-en="Languages"></h3><span class="tag t" data-fr="Français" data-en="French"></span><span class="tag">Swahili</span><span class="tag t" data-fr="Anglais (B2)" data-en="English (B2)"></span></div>
+  </div>
+</section>
+
+<section id="projets">
+  <h2 class="t" data-fr="Projets" data-en="Projects"></h2>
+  <div class="grid">
+    <div class="card"><h3 class="t" data-fr="Pipeline CI/CD avec GitHub Actions" data-en="CI/CD pipeline with GitHub Actions"></h3><p class="t" data-fr="Un site testé et déployé automatiquement à chaque modification." data-en="A site tested and deployed automatically on every change."></p><p class="status t" data-fr="À venir" data-en="Coming soon"></p></div>
+    <div class="card"><h3 class="t" data-fr="Guide de durcissement Linux" data-en="Linux hardening guide"></h3><p class="t" data-fr="Checklist de sécurité et script bash d'audit automatique." data-en="Security checklist and automated bash audit script."></p><p class="status t" data-fr="À venir" data-en="Coming soon"></p></div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email : <a href="mailto:m.kyahimbamessager@hotmail.com">m.kyahimbamessager@hotmail.com</a><br>
+  GitHub : <a href="https://github.com/MUVATSI005">github.com/MUVATSI005</a></p>
+</section>
+</main>
+<footer><span class="t" data-fr="Butembo, RDC. Ouvert aux postes cloud, sécurité, réseaux et télécoms, y compris en télétravail." data-en="Butembo, DR Congo. Open to cloud, security, networking and telecom roles, including remote work."></span></footer>
+</div>
+
+<script>
+(function(){
+  var els=document.querySelectorAll('.t');
+  function set(l){
+    els.forEach(function(e){e.textContent=e.getAttribute('data-'+l)});
+    document.documentElement.lang=l;
+    document.getElementById('bfr').setAttribute('aria-pressed',l==='fr');
+    document.getElementById('ben').setAttribute('aria-pressed',l==='en');
+    try{localStorage.setItem('lang',l)}catch(e){}
+  }
+  var s='fr';
+  try{s=localStorage.getItem('lang')||((navigator.language||'fr').slice(0,2)==='en'?'en':'fr')}catch(e){}
+  document.getElementById('bfr').onclick=function(){set('fr')};
+  document.getElementById('ben').onclick=function(){set('en')};
+  set(s);
+})();
+</script>
+</body>
+</html>
